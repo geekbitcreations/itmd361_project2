@@ -100,6 +100,18 @@ table {
   padding: 10px;
 }
 
+#intro {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.about {
+  overflow: auto;
+  width: 98%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
 footer {
   display: block;
   background-color: #E0EBEE;
@@ -117,27 +129,37 @@ footer {
 }
 
 .gallery {
-  margin: 10px;
+  /*margin: 10px;
   border: 2px solid #CCCCCC;
   float: left;
-  width: 300px;
-  margin-left: 20px;
+  width: 310px;
+  margin-left: 20px;*/
+  width: 40%;
+  margin-top: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.gallery:hover {
+/*.gallery:hover {
   border: 2px solid #777777;
-}
+}*/
 
 .gallery img {
-  width: 300px;
-  height: 180px;
-  float: left;
+  /*width: 300px;*/
+  width: 100%;
+  height: 250px;
+  margin-top: 10px;
+  /*float: left;*/
 }
 
 section.caption {
   padding: 10px;
   text-align: left;
 }
+
+/*.work {
+  margin: auto;
+}*/
 
 h1 {
   text-align: center;
@@ -169,15 +191,8 @@ p {
   margin-left: 20px;
   margin-top: 15px;
   margin-bottom: 15px;
-  font: 16px/20px;
+  /*font: 16px/20px;*/
   font-size: 16px;
-}
-
-.about {
-  overflow: auto;
-  width: 98%;
-  margin-top: 12px;
-  margin-bottom: 12px;
 }
 
 ul {
