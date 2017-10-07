@@ -1,5 +1,3 @@
-/* Style sheet for my project 2 of my portfolio. */
-
 /* CSS reset */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -53,7 +51,7 @@ table {
 	border-spacing: 0;
 }
 
-/* Added CSS code to my portfolio design. */
+/* Style sheet for my project 2 of my portfolio. Added CSS code to my portfolio design. */
 
 /* Navigation  and banner CSS layout for all of the pages */
 
@@ -97,8 +95,8 @@ table {
 #banner {
   width: 100%;
   height: 200px;
+  opacity: 0.5;
 }
-/* CSS layout for the homepage. */
 
 .myheader {
   font-family: 'Roboto', serif;
@@ -107,6 +105,18 @@ table {
   text-align: center;
   padding: 10px;
 }
+
+footer {
+  /*display: block;*/
+  background-color: #E0EBEE;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* CSS layout for the homepage. */
 
 #intro {
   text-align: left;
@@ -120,50 +130,81 @@ table {
   margin-bottom: 12px;
 }
 
-footer {
-  display: block;
-  background-color: #E0EBEE;
-  position: bottom;
-  padding: 20px;
-  width: 100%;
-  top: 0;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 /* CSS layout for the projects page. */
 
+ #comart {
+  width: 100%;
+  height: 900px;
+ }
+ 
+ #photo {
+  width: 100%;
+  height: 900px;
+ }
+ 
+ #anime {
+  width: 100%;
+  height: 600px;
+ }
+ 
+ #print {
+  width: 100%;
+  height: 900px;
+ }
+ 
+ #web {
+  width: 100%;
+  height: 1260px;
+ }
+ 
 .gallery {
   /*margin: 10px;
   border: 2px solid #CCCCCC;
   float: left;
   width: 310px;
   margin-left: 20px;*/
-  width: 30%;
+  width: 350px;
+  height: 360px;
   margin-left: 15px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .gallery img {
   /*width: 300px;*/
-  width: 100%;
-  height: 200px;
+  width: 300px;
+  height: 250px;
   margin-top: 10px;
   /*float: left;*/
 }
 
 section.caption {
-  padding: 10px;
+  padding: 12px;
   text-align: left;
+  font-size: 14px;
 }
 
-/*.work {
+.work {
   margin: auto;
-}*/
+}
 
 #animation {
   list-style-type: none;
+}
+
+.video {
+  margin: auto;
+  padding: 6px 6px;
+  width: 300px;
+  height: 200px;
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* CSS layout for the resume page. */
