@@ -294,3 +294,23 @@ em {
   font-style: italic;
   margin-left: 5px;
 }
+
+a:link {
+  text-decoration: none;
+  color: #227CA2
+}
+
+a:visited {
+  text-decoration: none;
+  color: #E0EBEE;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #C3D3DA;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
