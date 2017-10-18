@@ -240,6 +240,13 @@ footer {
   margin-bottom: 5px; 
 }
 
+.descrip {
+  text-align: left;
+  width: 900px;
+  position: relative;
+  margin-left: 300px;
+  font-size: 16px;
+}
 /* General CSS layout for text, images, paragraphs, lists, etc. */
 
 h1 {
@@ -306,7 +313,7 @@ a:visited {
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
   color: #C3D3DA;
 }
 
