@@ -63,13 +63,18 @@
 }
 
 footer {
-  /*display: block;*/
+  display: block;
+  clear: both;
   background-color: #E0EBEE;
   text-align: center;
-  padding: 10px;
+  padding: 5px 10px;
   width: 100%;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  height: 40px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* CSS layout for the homepage. */
@@ -84,6 +89,38 @@ footer {
   margin-top: 12px;
   margin-bottom: 12px;
   font-size: 16px;
+}
+
+.column {
+  float: left;
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#left {
+  width: 35%;
+  float: left;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#right1 {
+  width: 65%;
+  float: right;
+  position: relative;
+  top: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#right2 {
+  width: 65%;
+  float: right;
+  position: relative;
+  top: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* CSS layout for the projects page. */
@@ -228,6 +265,7 @@ img {
   height: 300px;
   margin-top: 15px;
   margin-bottom: 15px;
+  border-radius: 8px;
 }
 
 p {
