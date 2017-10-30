@@ -19,14 +19,14 @@ body {
 
 #navmenu ul {
   list-style-type: none;
-  margin: 0;
+  margin-left: 565px;
   padding: 0;
   overflow: hidden;
 }
 
 #navmenu ul li {
   float: left;
-
+  text-align: center;
 }
 
 #navmenu ul li a {
@@ -81,6 +81,10 @@ footer {
   right: 0;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+footer p{
+  text-align: center;
 }
 
 /* CSS layout for the homepage. */
